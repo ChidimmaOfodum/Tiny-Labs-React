@@ -1,10 +1,8 @@
-import React from "react";
-import FormHeading from "./FormHeading";
+import React from 'react'
 
 function Form() {
   return (
-    <>
-    <FormHeading />
+    <div className="form_container">
       <div>
         <div>
           <p>First Name</p>
@@ -27,8 +25,8 @@ function Form() {
       </div>
 
       <button>Continue</button>
-    </>
+    </div>
   );
 }
 
-export default Form;
+export default Form

@@ -1,9 +1,10 @@
 import React from 'react'
-import Form from './Form';
+import FormSection from './FormSection';
+
 
 function Welcome() {
   return (
-    <>
+    <div className='welcome'>
       <div className="img-container">
         <p>No Hazzles</p>
         <p>
@@ -13,8 +14,8 @@ function Welcome() {
         </p>
       </div>
 
-      <Form />
-    </>
+      <FormSection />
+    </div>
   );
 }
 
