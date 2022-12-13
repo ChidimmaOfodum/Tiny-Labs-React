@@ -1,8 +1,10 @@
 import React from "react";
+import FormHeading from "./FormHeading";
 
 function Form() {
   return (
     <>
+    <FormHeading />
       <div>
         <div>
           <p>First Name</p>
