@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form() {
   return (
-    <div className="form_container">
+    <form action = "/test" method = "get" className="form_container">
       <div>
         <div>
           <p>First Name</p>
@@ -25,7 +25,7 @@ function Form() {
       </div>
 
       <button>Continue</button>
-    </div>
+    </form>
   );
 }
 
