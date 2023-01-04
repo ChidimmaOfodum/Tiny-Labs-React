@@ -4,14 +4,14 @@ import Test from './Test'
 function Dashboard() {
   return (
     <div className='dashboard'> 
-        <div>
+        <div className='profile'>
             <p>Get Change</p>
             <p>Hi Joshua</p>
         </div>
 
         <div>
             <div className='asideIcons'></div>
-            <div>
+            <div className='employee-heading'>
                 <p>Employees</p>
                 <button>Add New</button>
             </div>

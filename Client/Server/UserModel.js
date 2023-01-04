@@ -31,4 +31,4 @@ const User = mongoose.model("User", UserSchema);
 
 const test = User.find()
 console.log(test)
-model.exports = User
+module.exports = User

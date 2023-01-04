@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form() {
   return (
-    <form action = "/test" method = "get" className="form_container">
+    <form action = "/users" method = "get" className="form_container">
       <div>
         <div>
           <p>First Name</p>
